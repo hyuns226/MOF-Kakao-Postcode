@@ -46,7 +46,9 @@
           var postData = {
               roadAddress : data.roadAddress,
               jibunAddress : jibunAddress,
-              zonecode : data.zonecode
+              zonecode : data.zonecode,
+              region_1depth_name : data.region_1depth_name,
+              region_2depth_name : region_1depth_name
           };
           window.postMessageToiOS(postData);
         },
